@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de James</title>
+</head>
+<body>
+   
+    <h1>Cadastro de Games</h1>
+    <form>
+
+        <label for="nome-jogo">Nome do jogo</label>
+        <br>
+        <input type="text" name="nome-jogo" id="nome-jogo">
+        <br>
+        <label for="dev">Desenvolvedora</label> 
+        <br>
+        <input type="text" name="dev" id="dev"> 
+        <br>
+        <label for="ano-publicacao">Ano de Publicação</label>
+        <br>
+        <input type="number" name="ano-publicacao" id="ano-publicacao">
+        <br>
+        
+        <h4>Número de Jogadores</h4>
+        <label for="single">Singleplayer</label>
+        <br>
+        <input type="radio" id="single" name="numero-jogador" value="single">
+        <br>
+        <label for="multi">Multiplayer</label>
+        <br>
+        <input type="radio" id="multi" name="numero-jogador>" value="multi">
+        <br>
+
+        <h4>Plataforma</h4>
+        <label for="steam">Steam</label>
+        <br>
+        <input type="checkbox" id="steam" value="steam">
+        <br>
+        <label for="Playstation">Playstation</label>
+        <br>
+        <input type="checkbox" id="playstation" name="playstation" value="playstation">
+        <br>
+        <label for="Playstation">Xbox</label>
+        <br>
+        <input type="checkbox" id="Xbox" name="Xbox" value="Xbox">
+        <br>
+
+        <label for="etaria">Faixa Etária</label>
+        <select name="etaria" id="etaria">
+            <option value="0">Livre</option>
+            <option value="10">10+></option>
+            <option value="14">14+</option>
+            <option value="16">16+</option>
+            <option value="18">18+</option>
+        </select>
+        <br>
+
+        <label for="categoria">Categoria</label>
+        <select name="categoria" id="categoria">
+            <option value="RPG">RPG</option>
+            <option value="Rougue">Rougue></option>
+            <option value="FPS">FPS</option>
+            <option value="MMO">MMO</option>
+            <option value="Souls-like">Souls like+</option>
+        </select>
+    </form>
+</body>
+</html> 
